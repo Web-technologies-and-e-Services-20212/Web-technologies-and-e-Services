@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personal Information Form</title>
+  </head>
+  <body>
+    <form action="Form.php" method="post">
+      <p>
+        Enter your name:
+        <br />
+        <input type="text" name="username" />
+      </p>
+      <p>
+        Enter your university: <br />
+        <input type="text" name="university" />
+      </p>
+      <p>
+        Enter your class:
+        <br />
+        <input type="text" name="class" />
+      </p>
+
+      <p>
+        Choose hobbies you like:
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Football" /> Football
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Badminton" /> Badminton
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Swimming" /> Swimming
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Dancing" /> Dancing
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Talking" /> Talking
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Lying" /> Lying
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Learning" /> Learning
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Playing Game" /> Playing
+        Game
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Coding" /> Coding
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Karaoke" /> Karaoke
+        <br />
+        <input type="checkbox" name="hobbies[]" value="Sleeping" /> Sleeping
+        <br />
+      </p>
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
