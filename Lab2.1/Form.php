@@ -24,5 +24,8 @@
             }
         }
         ?>
+        <?php
+        echo 'Your favorite color is '.$_POST["color"];
+        ?>
     </body>
 </html>
