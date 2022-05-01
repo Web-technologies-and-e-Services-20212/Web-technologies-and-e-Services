@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event Handling</title>
+    </head>
+    <body>
+        <a href="" style="color:Red" onmouseover="text_over('Red')" onmouseout="text_out()">RED</a>
+        <a href="" style="color:Green" onmouseover="text_over('Green')" onmouseout="text_out()">GREEN</a>
+        <a href="" style="color:Blue" onmouseover="text_over('Blue')" onmouseout="text_out()">BLUE</a>
+        <br/>
+        <p id="small-text" style="color:black">
+            This is Black paragraph. It can be Red, Green or Blue. Amazing!!!
+        </p>
+        <script>
+            var smallText = document.getElementById("small-text")
+            function text_over(param){
+                smallText.style.color=param
+            }
+
+            function text_out(){
+                smallText.style.color="Black"
+            }
+        </script>
+    </body>
+</html>
