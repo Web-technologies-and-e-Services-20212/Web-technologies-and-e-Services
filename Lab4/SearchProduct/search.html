@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        * {box-sizing: border-box;}
+        
+        input[type=text] {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+          font-size: 16px;
+        }
+        
+        input[type=submit] , input[type=reset]{
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover, input[type=reset]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          width: 60%;
+          margin: 0 auto;
+        }
+        </style>
+</head>
+<body>
+    <h2>Inventory Search</h2>
+    <div class="container">
+        <form action="search.php" method="post">
+            <label for="search_text">Enter product to search for</label>
+            <input type="text" id="search_text" name="search_text" >
+
+            <input type="submit" value="Click To Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
