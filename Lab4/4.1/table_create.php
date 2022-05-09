@@ -2,11 +2,7 @@
     <head><title>Create Table</title></head>
     <body>
         <?php
-            $server = 'localhost';
-            $user = 'root';
-            $pass = '';
-            $mydb = 'mydatabase';
-            $table_name = 'Products';
+            include 'CONFIG.php';
             $connect = mysqli_connect($server, $user, $pass);
 
             if (!$connect) {
