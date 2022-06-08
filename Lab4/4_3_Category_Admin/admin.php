@@ -62,7 +62,7 @@
             <th>Description</th>
         </tr>
         <?php
-            include '../CONFIG2.php';
+            include '../../CONFIG2.php';
             $connect = mysqli_connect($server, $user, $pass, $mydb);
     
             if (!$connect) {
