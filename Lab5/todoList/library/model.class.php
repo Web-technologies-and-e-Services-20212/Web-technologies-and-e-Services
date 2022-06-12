@@ -1,4 +1,7 @@
 <?php
+
+include_once(ROOT . DS . 'library' . DS . 'SQLQuery.class.php');
+
 class Model extends SQLQuery {
 	protected $_model;
 
