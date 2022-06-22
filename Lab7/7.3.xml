@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>số 52 ngõ 205 Duong Giai Phong</name>
+    <description>Home</description>
+    <Point>
+      <coordinates>21.000513, 105.841526,12.30347463558939</coordinates>
+    </Point>
+  </Placemark>
+</kml>

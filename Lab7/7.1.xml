@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student>
+        <mssv>20194091</mssv>
+        <name>Trần Ngọc Lâm</name>
+        <age>21</age>
+        <class>KHMT - 04</class>
+        <address>Hải Dương</address>
+        <phone>0332390723</phone>
+    </student>
+	
+    <student>
+        <mssv>20194094</mssv>
+        <name>Nguyễn Sỹ Lợi</name>
+        <age>20</age>
+        <class>KHMT - 04</class>
+        <address>Hà Nội</address>
+        <phone>0332390722</phone>
+    </student>
+
+    <student>
+        <mssv>20194092</mssv>
+        <name>Nguyễn Văn Công Sơn</name>
+        <age>21</age>
+        <class>KHMT - 04</class>
+        <address>Hà Tĩnh</address>
+        <phone>0332390721</phone>
+    </student>
+
+    <student>
+        <mssv>20194093</mssv>
+        <name>Nguyễn Việt Tùng</name>
+        <age>21</age>
+        <class>KHMT - 04</class>
+        <address>Yên Bái</address>
+        <phone>0332390720</phone>
+    </student>
+</students>
